@@ -11,7 +11,7 @@ class ApplePieRecipe {
     Ingredient breadcrumbs = new Ingredient(15, "gram", "paneermeel");
 
     public void printIngredients() {
-        System.out.println("////////INGREDIENTEN////////");
+        System.out.println("////////INGREDIENTEN APPELTAART////////");
         System.out.println(butter.getIngredients());
         System.out.println(brownSugar.getIngredients());
         System.out.println(flour.getIngredients());
@@ -26,7 +26,7 @@ class ApplePieRecipe {
     }
 
     public void printRecipe() {
-        System.out.println("////////RECEPT////////");
+        System.out.println("////////RECEPT APPELTAART////////");
         print1PreheatOven();
         print2PrepareEgg();
         print3MixDough();
