@@ -1,4 +1,4 @@
-public class Ingredient {
+class Ingredient {
     private double amount;
     private String unit;
     private String name;
@@ -12,5 +12,28 @@ public class Ingredient {
     public Ingredient() {
     }
 
+    public String getIngredients() {
+        return amount + " " + unit + " " + name;
+    }
 
+    public double getAmount() {
+        return amount;
+    }
+    public void setAmount(double amount) {
+        this.amount = amount;
+    }
+
+    public String getUnit() {
+        return unit;
+    }
+    public void setUnit(String unit) {
+        this.unit = unit;
+    }
+
+    public String getName() {
+        return name;
+    }
+    public void setName(String name) {
+        this.name = name;
+    }
 }
